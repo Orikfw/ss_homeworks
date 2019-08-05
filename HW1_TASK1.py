@@ -5,6 +5,8 @@ try:
     m = a - b
     mul = a * b
     dl = a / b
+    div = a // b 
+    mod = a % b
 except ZeroDivisionError:
     print(f"Сума: {d} \nРізниця: {m} \nМноження: {mul}")
     print('Виявлено ділення на нуль, операцію завершено...')
@@ -13,4 +15,4 @@ except ValueError:
 except:
     print("Ой, щось пішло не так...")
 else:
-    print(f"Сума: {d} \nРізниця: {m} \nМноження: {mul} \nДілення: {dl}")
+    print(f"Сума: {d} \nРізниця: {m} \nМноження: {mul} \nДілення: {dl} \nЦілочисельне ділення: {div} \nОстача: {mod}")
