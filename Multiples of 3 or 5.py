@@ -3,6 +3,6 @@ def solution(number):
     for i in range(number):
         if i % 3 == 0 or i % 5 == 0:
             count += i
-        elif i % 3 == 0 and i % 5 == 0:
-            continue
     return count
+
+print(solution(10))
