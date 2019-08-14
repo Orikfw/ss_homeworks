@@ -1,6 +1,2 @@
 def solution(number):
-    count = 0
-    for i in range(number):
-        if i % 3 == 0 or i % 5 == 0:
-            count += i
-    return count
+    return sum([x for x in range(number) if x % 3 == 0 or x % 5 == 0])
