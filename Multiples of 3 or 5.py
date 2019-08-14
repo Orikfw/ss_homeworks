@@ -4,5 +4,3 @@ def solution(number):
         if i % 3 == 0 or i % 5 == 0:
             count += i
     return count
-
-print(solution(10))
